@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        h1, p {
+            color: blue;
+            text-decoration: underline;
+            
+        }
+     
+        /* @media screen and (max-width: 978px) { */
+             .col {
+            width: 50%;
+            float: left;
+            border: 1px solid black;
+        }
+        /* } */
+          @media screen and (min-width: 978px) {
+             .col {
+            width: 33.33%;
+            float: left;
+            border: 1px solid black;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="col">1</div>
+    <div class="col">2</div>
+    <div class="col">3</div>
+    
+</body>
+</html>
